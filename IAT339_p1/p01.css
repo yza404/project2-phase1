@@ -1,0 +1,386 @@
+*{
+	box-sizing:border-box;
+}
+
+
+body{
+	background-color:#f8f2e9;
+}
+
+/*--- ---*/
+/*--- logo  ---*/
+header{
+    background-image: url("bk.jpg");
+		width:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+		background-size: cover;
+		padding: 8em  0 0 0;
+    text-align: center;
+
+}
+
+/*---click it back to the main menu ---*/
+header a{
+
+	text-decoration: none;
+}
+
+h1{
+  font-family:monospace;
+  font-size: 3em;
+	padding-top: 1em;
+	position: relative;
+}
+
+
+/*---Navigation part ---*/
+  header>.nav1{
+	font-family:"Lucida Sans Unicode";
+	background-color: #dcd2c8;
+	font-size: 2em;
+
+
+}
+
+.nav1 a{
+	color:black;
+	text-decoration:none;
+  padding:1.75em 1.75em;
+	display:inline-block;
+		width:15%;
+}
+
+.nav1 a:hover{
+  background:#dcd2c8;
+	background-color:#c6aa9d;
+}
+
+/*--INTERACTIVE ELEMENTS SECTION --*/
+
+h2 {
+	font-family: verdana;
+  text-align: left;
+
+	border-bottom: 3px #423f3b dotted;
+}
+
+.nav2 a{
+  font-family: "Lucida Sans Unicode";
+	padding-top: 0.3em;
+
+}
+
+p{
+	font-size:14px;
+}
+
+/* different heading  */
+
+#eg1{
+	font-size:35px;
+
+}
+#eg2{
+	font-size:30px;
+}
+
+#eg3{
+	font-size:25px;
+
+}
+#eg4{
+	font-size:20px;
+}
+
+
+/*----------css for the link-----------*/
+
+a:link {
+	color: 	black;
+}
+
+a:visited {
+	color:	#423f3b;
+}
+
+a:hover {
+	color: black;
+}
+
+a:active {
+	color:  black;;
+}
+
+/* image css  */
+.lImage{
+	display: inline-block;
+	margin: 0em;
+	flex: 1 1 auto;
+}
+.lImage:hover{
+	opacity: 0.5;
+}
+
+/*----------css for the different section element -----------*/
+.interactive_elements{
+  padding-bottom: 1.5em;
+  font-family:"Lucida Sans Unicode";
+  margin: 0 0 3em 0;
+  width:50%;
+}
+.element{
+	padding-bottom: 1.5em;
+	font-family:"Lucida Sans Unicode";
+	margin: 0 0 3em 0;
+
+}
+
+.elementP{
+	padding-bottom: 1.5em;
+	font-family:"Lucida Sans Unicode";
+	margin: 0 0 3em 0;
+	width:90%;
+	text-align: justify;
+
+}
+
+
+.elementInput{
+	padding-bottom: 1.5em;
+	font-family:"Lucida Sans Unicode";
+	margin: 0 0 3em 0;
+	width:90%;
+
+}
+
+/*
+	For the text, we want it to behave a bit differently, in this case setting an em value for its flex-basis. Using a 1 for the flex-grow value means it weighs less in comparison to our image, and will take less space when possible.
+*/
+#text_elements{
+	-webkit-flex: 1 1 2em;
+	-ms-flex: 1 1 2em;
+	flex: 2 1 2em;
+}
+
+
+.nav2 a{
+	font-family:"Lucida Sans Unicode";
+	background-color: #dcd2c8;
+	font-size: 0.9em;
+	text-decoration:none;
+	padding:1em 1.75em;
+	display:inline-block;
+	color:black;
+}
+
+.nav2 a:hover{
+	font-family:"Lucida Sans Unicode";
+
+	background:#c6aa9d;
+}
+
+
+/* navaition for the combned element */
+.nav3{
+    text-align: center;
+}
+.nav3 a{
+	font-family:"Lucida Sans Unicode";
+	background-color: #dcd2c8;;
+	font-size: 0.9em;
+	text-decoration:none;
+	padding:1em 1.75em;
+	display:inline-block;
+	color:black;
+	margin:auto;
+
+}
+
+.nav3 a:hover{
+	background:#c6aa9d;
+}
+
+
+/*----product list-----*/
+
+
+.pContainer{
+	display: flex;
+	justify-content: space-around;
+	font-family:"Lucida Sans Unicode";
+	padding-bottom: 1.5em;
+
+}
+
+.pro2{
+		margin-left:auto ;
+		margin-right:auto;
+}
+
+/*  style guide button*/
+button{
+	padding:1em 1em;
+	text-align: center;
+	margin-top:1em;
+	border:none;
+	font-family:"Lucida Sans Unicode";
+	font-weight: bold;
+	transition: 0.3s;
+	background-color:#dcd2c8;
+
+}
+
+button:hover{
+	color:black;
+	background:#c6aa9d;
+	box-shadow:3.5px 2px black;
+}
+
+/* lable css */
+input{
+	background-color:#eee;
+	padding: 0.8em;
+	margin-top: 1em;
+	transition: 0.2s;
+}
+
+input:hover{
+	background-color:#c7a399;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/*-----CART SECTION------*/
+
+.container {
+	border-radius: 5px;
+	background-color: #FFFAFA;
+	padding: 20px;
+	font-family:"Lucida Sans Unicode";
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+
+	padding: 14px 19px 14px 19px;
+
+
+
+}
+
+/*--------------------The css for the checkout SECTION------------------*/
+#Cart{
+	background-color:white;
+font-size: 18px;
+ text-align: center;
+ border: 10px #856e66 outset ;
+}
+
+
+
+label {
+	display: block;
+	margin-bottom: 12px;
+}
+
+.label1{
+	display: block;
+	margin-bottom: 12px;
+	padding-top:20px;
+
+}
+
+.size, #size{
+	font-family:"Lucida Sans Unicode";
+	font-size: 16px;
+	font-style: italic;
+}
+.cButton{
+	font-size: 16px;
+	text-align: center;
+}
+
+a{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+#checkout>h3{
+	margin-left: 24px;
+}
+
+
+/*----------I learn this code from this website:https://www.w3schools.com/howto/howto_css_checkout_form.asp ---------------*/
+.Rcontainer {
+	display: block;
+	position: relative;
+	margin-bottom: 20px;
+	cursor: pointer;
+	padding-left: 30px;
+	font-size: 15px;
+
+}
+
+.Rcontainer input {
+	opacity: 0;
+	position: absolute;
+	cursor: pointer;
+}
+
+.click {
+	position: absolute;
+	top: 0;
+	height: 20px;
+	width: 20px;
+	left: 0;
+	background-color:   #bbb;
+	border-radius: 60%;
+}
+/*- interaction for the different cards-*/
+.Rcontainer:hover input ~ .click {
+	background-color:#dcd2c8;
+}
+
+.Rcontainer input:checked ~ .click {
+	background-color: #c6aa9d;
+}
+
+.Rcontainer input:checked ~ .click:after {
+	display: block;
+}
+
+@media only scree and(max-width: 620px){
+/* for mobie phone */
+.interactive_elements,.element, .elementP,.elementInput, #text_elements{
+	width:100%;
+	text-align:center;
+}
+}
+
+
+footer{
+  background-color: #8f8681;
+	opacity: 70%;
+}
