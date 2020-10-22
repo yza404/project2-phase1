@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
+<!-- head part -->
   <head>
-    <link rel="stylesheet" href="p01.css">
+    <title> CANTWO</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title> CANTWO</title>
+    <link rel="stylesheet" href="css/p01.css">
+
+
   </head>
 
+
+
   <body>
-
-
+    <!-- navigation bar -->
     <header>
       <a href="p01.html">
       <h1>CANTWO</h1></a>
 
-   <!--Navigation part -->
       <nav class="nav1">
         <nav>
-          <a href="#interactive_elements">Interactive Elements</a>
-          <a href="#text_elements">Text Elements</a>
-          <a href="#brand_elements">Brand Elements</a>
-          <a href="#design_elements">Design Elements</a>
-          <a href="#combined_elements">Combined Elements</a>
+          <a href="about.html">About</a>
+          <a href="event.html">Events</a>
+          <a href="productListing.html">Product</a>
+          <a href="lookbook.html">Lookbook</a>
+          <a href="checkout.html"> Cart</a>
+
         </nav>
       </nav>
 
@@ -33,316 +38,17 @@
 
 
 
-    <!-- INTERACTIVE ELEMENTS SECTION // -->
-    <section id="interactive_elements">
-      <h2>interactive_elements</h2>
 
-      <section class="element">
-        <h3>In-text link</h3>
-  			<p>This is the <a href="https://www.cantwo.com.tw/">link</a>.</p>
-        <h4>Sample Code</h4>
-  			<code>&lt;a href="#"&gt;This is the link.&lt;/a&gt;</code>
-      </section>
 
 
-      <section class="elemtnt">
 
-        <h3>Navigation Link</h3>
 
-  			<nav class="nav2">
-  				<a href="#Products Listing">Products Listing</a>
-  				<a href="#Cart">Checkout</a>
-  			</nav>
-
-        <h4>Sample Code</h4>
-  			<code>&lt;nav&gt;
-  				&lt;a href="#"&gt;Products Listing&lt;/a&gt;
-  				&lt;a href="#"&gt;Checkout&lt;/a&gt;
-
-  				&lt;/nav&gt;
-  			</code>
-      </section>
-
-
-      <section class="element">
-        <h3>Submit and Reset Buttons</h3>
-
-  			<h4><button name="submit" class="submitButton">Submit</button></h4>
-  			<h4><button name="reset" class="resetButton">Reset</button></h4>
-
-        <h4>Sample Code</h4>
-        <code>
-          &lt;button name="submit" class="submitButton"&gt;Submit&lt;/button&gt;
-          &lt;button name="reset" class="resetButton"&gt;Reset&lt;/button&gt;
-        </code>
-      </section>
-
-      <section class="element">
-        <h3>Text Input Field and Label</h3>
-
-        <div class="Tlabel">
-          <label for="yyName">Cardholder's name</label>
-          <input type="text" id="yyName" placeholder="Asiya Zhang">
-        </div>
-
-        <h4>Sample Code</h4>
-  			<code>	&lt;div class="Tlabel"&gt;
-  				&lt;label for="yourName"&gt;Name&lt;/label&gt;
-  				&lt;input class="input" type="text" placeholder="Asiya Zhang"&gt;
-  				&lt;/div&gt;
-  			</code>
-      </section>
-
-      <section class="element">
-        <h3>Radio Button Input Field and Label</h3>
-
-        <label class="Rcontainer"> visa
-          <input type="radio" checked="checked" name="radio">
-          <span class="click"></span>
-        </label>
-
-        <label class="Rcontainer"> debit
-          <input type="radio" checked="checked" name="radio">
-          <span class="click"></span>
-        </label>
-
-        <h4>Sample Code</h4>
-  			<code>
-  				&lt;label class="Rcontainer"&gt;Visa card
-  				&lt;input type="radio" checked="checked" name="radio"&gt;
-  				&lt;span class="click"&gt;&lt;/span&gt;
-  				&lt;/label&gt;
-  			</code>
-
-      </section>
-
-
-      <section class="element">
-  			<h3>Image as a Link</h3>
-
-  			<figure class="lImage box-item-image">
-  				<a href="https://www.cantwo.com.tw/"><img src="logo.png" alt="this should be an image" style="width:400px;height:400px;" ></a>
-  			</figure>
-
-        <h4>Sample Code</h4>
-  			<code>
-  				&lt;figure class="lImage"&gt;
-  				&lt;a href="https://www.cantwo.com.tw/"&lt;img src="logo.png" alt="logo image"
-          &gt;&lt;/a&gt; &lt;/figure&gt;
-  			</code>
-
-  		</section>
-  </section>
-
-
-	<!-- TEXT ELEMENTS SECTION -->
-  <section id="text_elements">
-
-		<h2>Text Styleing</h2>
-
-		<section class="element">
-
-			<h3>Four Levels of Headings</h3>
-
-      <p id="eg1">Heading 1 </p>
-      <p id="eg2">Heading 2 </p>
-      <p id="eg3">Heading 3 </p>
-      <p id="eg4">Heading 4 </p>
-
-      <h4>Sample Code</h4>
-
-      <code>
-
-        &lt;h1&gt;Heading 1  &lt;/h1&gt;
-        &lt;h2&gt;Heading 2  &lt;/h2&gt;
-        &lt;h3&gt;Heading 3  &lt;/h3&gt;
-        &lt;h4&gt;Heading 4  &lt;/h4&gt;
-
-      </code>
-
-		</section>
-
-		<section class="elementP">
-
-			<h3>A Paragraph</h3>
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-
-        <h4>Sample Code</h4>
-  			<code>
-  				&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. &lt;/p&gt;
-  			</code>
-		</section>
-
-
-		<section class="element">
-
-			<h3>Numbered Lists</h3>
-
-			<ol>
-				<li>tops</li>
-				<li>dresses</li>
-				<li>bottoms</li>
-			</ol>
-
-      <h4>Sample Code</h4>
-      <code>
-        &lt;ol&gt;
-        &lt;li&gt;tops&lt;/li&gt;
-        &lt;li&gt;dresses&lt;/li&gt;
-        &lt;li&gt;bottoms&lt;/li&gt;
-        &lt;/ol&gt;
-      </code>
-
-		</section>
-
-	</section>
-
-
-    <!-- BRAND ELEMENTS SECTION -->
-  <section id="brand_elements">
-
-        <h2>Brand Elements</h2>
-        <h3> What does the company do, or offer?</h3>
-        <p>It sells clothes for young women</p>
-
-        <h3> Who is the company to potential customers? (as a person)</h3>
-        <p>CANTWO is an urban fashion brand which designed for young women who are between 19-35 years old.</p>
-
-        <h3>Why might this company entice someone to purchase a product or service</h3>
-        <p> The clothing are fashionable and unique style, different material, excellent quality and can meet different consumer needs</p>
-
-  </section>
-
-    <!-- DESIGN ELEMENTS SECTION -->
-
-  	<section id="design_elements">
-
-  		<h2>Design Elements</h2>
-
-  		<section class="element">
-
-  			<h3>Fonts</h3>
-        <h4 style="font-family:monospace;">  Logo font: monospace</h4>
-      	<h4 style="font-family:verdana;"> title font / Navgation: verdana.</h4>
-        <h4 style="font-family:"Lucida Sans Unicode";"> paragraph / describe information: Lucida Sans Unicode</h4>
-
-  		</section>
-
-  		<section class="element">
-
-  			<h3>Colors</h3>
-
-  			<div class="colors">
-  					<h4 style="background-color:#f5f1ea;">Background Color - #f5f1ea</h4>
-
-  					<h4 style="background-color:#dcd2c8;"> Button Color original - #dcd2c8</h4>
-
-  					<h4 style="background-color:#c6aa9d;"> Button Color when clicked - #c6aa9d</h4>
-
-  					<h4 style="background-color:#ceb8a4;"> different section color - #ceb8a4</h4>
-
-  					<h4 style="background-color:#8f8681;"> footer - #8f8681</h4>
-  				</div>
-  		</section>
-
-
-  	</section>
-	<!-- COMBINED ELEMENTS SECTION -->
-
-  <section id="combined_elements">
-
-    <h2>Combined Elements</h2>
-
-    <section class="element">
-
-      <h3>Main Navigation</h3>
-
-      <nav class="nav3">
-
-        <a href="#Products Listing">Products Listing</a>
-        <a href="checkout.html">Cart</a>
-        <a href="checkout.html">Checkout</a>
-        <a href="about.html">About</a>
-
-      </nav>
-
-  </section>
-
-  </section>
-
-
-<div id="Products Listing">
-
-  <h3>Product List</h3>
-  <div class="pContainer">
-
-    <div class="pro1">
-      <img src="1.jpg"  width="300">
-      <h4><a href="https://www.cantwo.com.tw/SalePage/ShowImageListV2?salePageId=6550454">CANTWO異國情調露肩熱帶花卉寬版上衣-藍條黃花</a></h4>
-      <div class="size">
-      <label for="size">Choose a size:</label>
-        <select id="size" name="size">
-          <option value="S">small</option>
-          <option value="M"selected>medium</option>
-          <option value="L" >large</option>
-        </select>
-      </div>
-      <h4>cost:$85</h4>
-      <p><button name="submit" class="submitButton">Add</button></p>
-    </div>
-
-    <div class="pro2">
-      <img src="3.jpg"  width="300" >
-
-      <h4><a href="https://www.cantwo.com.tw/SalePage/ShowImageListV2?salePageId=6409635">CANTWO異變條紋拼接二穿式襯衫-藍白條</a></h4>
-
-      <div class="size">
-      <label for="size">Choose a size:</label>
-        <select id="size" name="size">
-          <option value="S">small</option>
-          <option value="M"selected>medium</option>
-          <option value="L" >large</option>
-        </select>
-      </div>
-
-      <h4>cost:$79</h4>
-      <p><button name="submit" class="submitButton">Add</button></p>
-    </div>
-
-
-
-    <div class="pro3">
-      <img src="2.jpg"  width="300" >
-
-      <h4><a href="https://www.cantwo.com.tw/SalePage/ShowImageListV2?salePageId=6500165">CANTWO側開襟裝飾棉麻長裙-二色</a></h4>
-      <div class="size">
-      <label for="size">Choose a size:</label>
-        <select id="size" name="size">
-          <option value="S">small</option>
-          <option value="M"selected>medium</option>
-          <option value="L" >large</option>
-        </select>
-      </div>
-      <h4>cost:$90</h4>
-      <p><button name="submit" class="submitButton">Add</button></p>
-    </div>
-
-</div>
-</div>
 
 
   </body>
 
 
   <footer>
-
- <h3> citations</h3>
- <h4> code learn from : https://www.w3schools.com/html/default.asp</h4>
- <h4> website image: https://www.cantwo.com.tw/</h4>
- <h4> All code are based on lecture demo code</h4>
 
   <div class="footer-source">
  						<p class="bar-hidden">|</p>

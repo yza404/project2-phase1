@@ -10,7 +10,8 @@ body{
 /*--- ---*/
 /*--- logo  ---*/
 header{
-    background-image: url("bk.jpg");
+
+		background-image:url('../img/bk.jpg');
 		width:100%;
     background-attachment: fixed;
     background-position: center;
@@ -22,6 +23,13 @@ header{
 }
 
 /*---click it back to the main menu ---*/
+
+header, nav {
+	font-family:"Lucida Sans Unicode";
+  font-size: 0.8rem;
+  letter-spacing: 0.08rem;
+}
+
 header a{
 
 	text-decoration: none;
@@ -380,7 +388,35 @@ a{
 }
 
 
-footer{
+/* footer{
   background-color: #8f8681;
 	opacity: 70%;
+}
+ */
+
+footer {
+  background-color: #8f8681;
+	opacity: 70%;
+  width: 100%;
+}
+
+.footer_section {
+  background-color: #262626;
+  height: 3.5rem;
+  width: 100%;
+}
+
+.footer-source a {
+  text-decoration: none;
+  color: #ffffff;
+
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.footer-source a:hover, .footer-source a:focus, .footer-source a:active {
+  color:  #c6aa9d;
+
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }

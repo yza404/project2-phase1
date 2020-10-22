@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="p01.css">
+    <link rel="stylesheet" href="css/p01.css">
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,20 +16,103 @@
       <a href="p01.html">
       <h1>CANTWO</h1></a>
 
-   <!--Navigation part -->
       <nav class="nav1">
         <nav>
-          <a href="#abouut"> ABOUT</a>
-          <a href="#event"> EVENT</a>
-          <a href="#productListing"> PRODUCT LISTING</a>
-          <a href="#lookBook"> LOOKBOOK</a>
-          <a href="#storeLocation"> STORE LOCATION </a>
-          <a href="#cart"> CART </a>
+          <a href="about.html">About</a>
+          <a href="event.html">Events</a>
+          <a href="productListing.html">Product</a>
+          <a href="lookbook.html">Lookbook</a>
+          <a href="checkout.html"> Cart</a>
+
         </nav>
       </nav>
 
     </header>
 
-    <body>
-          <h1 style="text-align:center">PRODUCT LISTING</h1>
+
+
+      <!-- COMBINED ELEMENTS SECTION -->
+
+      <section id="combined_elements">
+
+        <h2>Combined Elements</h2>
+
+        <section class="element">
+
+          <h3>Main Navigation</h3>
+
+          <nav class="nav3">
+
+            <a href="#Products Listing">Products Listing</a>
+            <a href="checkout.html">Cart</a>
+            <a href="checkout.html">Checkout</a>
+            <a href="about.html">About</a>
+
+          </nav>
+
+      </section>
+
+      </section>
+
+
+    <div id="Products Listing">
+
+      <h3>Product List</h3>
+      <div class="pContainer">
+
+        <div class="pro1">
+          <img src="img/1.jpg"  width="300">
+          <h4><a href="https://www.cantwo.com.tw/SalePage/ShowImageListV2?salePageId=6550454">CANTWO異國情調露肩熱帶花卉寬版上衣-藍條黃花</a></h4>
+          <div class="size">
+          <label for="size">Choose a size:</label>
+            <select id="size" name="size">
+              <option value="S">small</option>
+              <option value="M"selected>medium</option>
+              <option value="L" >large</option>
+            </select>
+          </div>
+          <h4>cost:$85</h4>
+          <p><button name="submit" class="submitButton">Add</button></p>
+        </div>
+
+        <div class="pro2">
+          <img src="img/3.jpg"  width="300" >
+
+          <h4><a href="https://www.cantwo.com.tw/SalePage/ShowImageListV2?salePageId=6409635">CANTWO異變條紋拼接二穿式襯衫-藍白條</a></h4>
+
+          <div class="size">
+          <label for="size">Choose a size:</label>
+            <select id="size" name="size">
+              <option value="S">small</option>
+              <option value="M"selected>medium</option>
+              <option value="L" >large</option>
+            </select>
+          </div>
+
+          <h4>cost:$79</h4>
+          <p><button name="submit" class="submitButton">Add</button></p>
+        </div>
+
+
+
+        <div class="pro3">
+          <img src="img/2.jpg"  width="300" >
+
+          <h4><a href="https://www.cantwo.com.tw/SalePage/ShowImageListV2?salePageId=6500165">CANTWO側開襟裝飾棉麻長裙-二色</a></h4>
+          <div class="size">
+          <label for="size">Choose a size:</label>
+            <select id="size" name="size">
+              <option value="S">small</option>
+              <option value="M"selected>medium</option>
+              <option value="L" >large</option>
+            </select>
+          </div>
+          <h4>cost:$90</h4>
+          <p><button name="submit" class="submitButton">Add</button></p>
+        </div>
+
+    </div>
+    </div>
+
+
     </body>

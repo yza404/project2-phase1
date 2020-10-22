@@ -1,0 +1,31 @@
+body{
+
+}
+
+.navBar {
+	background-color: #f8f2e9;
+	position: fixed;
+	min-width: 100%;
+	top: 0;
+	z-index: 1;
+}
+
+.nav-logo {
+	display: inline-block;
+  	padding-top: 1.5rem;
+  	padding-bottom: 1.5rem;
+  	font-size: 1.5rem;
+  	letter-spacing: 0.3rem;
+
+    -webkit-transition: all 0.5s ease;
+  	transition: all 0.5s ease;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 90%;
+	padding: 0 2%;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
