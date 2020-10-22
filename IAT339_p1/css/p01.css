@@ -65,6 +65,24 @@ h1{
 	background-color:#c6aa9d;
 }
 
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+
+
+
+
+
+
 /*--INTERACTIVE ELEMENTS SECTION --*/
 
 h2 {
